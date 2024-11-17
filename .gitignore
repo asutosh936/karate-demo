@@ -1,0 +1,74 @@
+# Ignore build output directories
+/target/
+out/
+build/
+
+# Ignore dependency directories
+/.mvn/
+/.gradle/
+/node_modules/
+
+# Ignore temporary files and logs
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+*.class
+
+# Ignore IDE-specific files and settings
+## IntelliJ IDEA
+/.idea/
+/*.iml
+
+## Eclipse
+/.classpath
+/.project
+/.settings/
+
+## NetBeans
+/nbproject/private/
+/build/
+/dist/
+
+## VS Code
+/.vscode/
+
+# Ignore Maven Wrapper files
+.mvn/wrapper/maven-wrapper.jar
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore test result reports
+/test-output/
+surefire-reports/
+karate-reports/
+
+# Ignore Java compiled files
+*.class
+*.war
+*.ear
+
+# Ignore environment or sensitive files
+.env
+*.key
+*.pem
+*.p12
+*.jks
+
+# Ignore cache or temporary files
+*.log
+*.cache
+*.diff
+*.patch
+
+# Ignore generated documentation
+/target/site/
+
+# Optional: Ignore coverage tools
+/coverage/
+*.lcov
+jacoco.exec
